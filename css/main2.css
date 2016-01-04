@@ -474,6 +474,12 @@ footer p {
 
 @media screen and (max-width: 660px) {
 
+  .intro {
+    float: left;
+    width: 80%;
+    padding-left: 4%;
+  }
+
   .intro h1, .intro2 h1, .intro3 h1 {
     font: 1.3em "Avenir Next", Helvetica, Arial, sans-serif;
     font-weight: 600;
