@@ -29,9 +29,9 @@ body {
   background-color: #ececec;
   max-width: auto;
   min-width: 340px;
-  width: 100%;
   margin: 0 auto;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .header {
@@ -532,6 +532,7 @@ footer p {
   .main2 .intro2 {
     float: left;
     width: 100%;
+}
 
   .main3 .imga3 {
     width: 70%;
