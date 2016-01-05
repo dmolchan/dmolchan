@@ -420,6 +420,13 @@ footer p {
 /* Media queries*/
 @media screen and (max-width: 1080px) {
 
+  .intro  {
+    width: 90%;
+    margin: 0px auto;
+    text-align: left;
+    padding-bottom: 0;
+  }
+
   .intro h1, .intro2 h1, .intro3 h1 {
     font: 1.6em "Avenir Next", Helvetica, Arial, sans-serif;
     font-weight: 600;
@@ -433,7 +440,7 @@ footer p {
   }
 
   .intro h2, .intro2 h2, .intro3 h2 {
-    font: 0.8em Arimo, sans-serif;
+    font: 1em Arimo, sans-serif;
     font-weight: 200;
     letter-spacing: 0.04em;
     line-height: 2em;
@@ -480,6 +487,13 @@ footer p {
     padding-left: 4%;
   }
 
+  .intro  {
+    width: 90%;
+    margin: 0px auto;
+    text-align: left;
+    padding-bottom: 0;
+  }
+
   .intro h1, .intro2 h1, .intro3 h1 {
     font: 1.3em "Avenir Next", Helvetica, Arial, sans-serif;
     font-weight: 600;
@@ -497,7 +511,7 @@ footer p {
   }
 
   .intro h2, .intro2 h2, .intro3 h2 {
-    font: 0.8em Arimo, sans-serif;
+    font: 0.85em Arimo, sans-serif;
     font-weight: 200;
     letter-spacing: 0.04em;
     line-height: 2em;
