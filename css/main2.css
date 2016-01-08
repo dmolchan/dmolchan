@@ -71,15 +71,18 @@ body {
   height: 550px;
   clear: both;
   background: url(photo4.png) bottom right no-repeat;
+  position: relative;
 }
 
 .main2 {
   background-color: #595959;
   height: 550px;
+  position: relative;
 }
 
 .main3 {
   height: 550px;
+  position: relative;
 }
 
 .dotted {
@@ -419,7 +422,6 @@ footer p {
 }
 /* Media queries*/
 @media screen and (max-width: 1080px) {
-
   .intro  {
     width: 90%;
     margin: 0px auto;
@@ -452,6 +454,12 @@ footer p {
     transition: color 0.2s linear;
   }
 
+  img.icons {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+  }
+
   .main3 .imga3 {
     width: 45%;
     padding-top: 150px;
@@ -480,7 +488,6 @@ footer p {
 }
 
 @media screen and (max-width: 660px) {
-
   .intro {
     float: left;
     width: 80%;
