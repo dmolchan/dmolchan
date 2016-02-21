@@ -143,6 +143,7 @@ body {
 }
 
 .intro h2, .intro2 h2, .intro3 h2 {
+  text-align:justify;
   font: 1em Arimo, sans-serif;
   font-weight: 200;
   letter-spacing: 0.04em;
