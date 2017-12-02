@@ -1,0 +1,25 @@
+@import
+  //list all the partials
+  'variables/index',
+  'components/index',
+  'typography',
+  'utilities';
+
+html {
+  font-family: $font-stack-safe;
+  color: $main-color;
+}
+
+body {
+  background-color: $body-bg;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px 40px;
+}

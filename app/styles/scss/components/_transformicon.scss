@@ -1,0 +1,69 @@
+$button-size : 2rem;
+$transition: .3s;
+
+.lines-button {
+  display: inline-block;
+  padding: $button-size/2 $button-size/4;
+  transition : .3s;
+  cursor: pointer;
+  user-select: none;
+  border-radius: $button-size/4;
+
+  &:hover {
+    opacity: 1;
+
+    .lines {
+      &:before { top: $button-size/3.4 }
+      &:after { top: -$button-size/3.4 }
+    }
+  }
+
+  &:active {
+    transition: 0;
+  }
+}
+
+@mixin line {
+  display: inline-block;
+  width: $button-size;
+  height: $button-size/16;
+  background-color: $transformicon-color;
+  border-radius: $button-size/16;
+  transition: $transition;
+}
+
+.lines {
+  // create a middle lines
+  @include line;
+  position: relative;
+  background-color: $green;
+
+  &:before, &:after {
+
+    @include line;
+      position: absolute;
+      left: 0;
+      content: '';
+      transform-origin: $button-size/40 center;
+  }
+  &:before { top: $button-size/4 }
+  &:after { top: -$button-size/4 }
+}
+
+.lines-button.arrow.close {
+  transform: scale3d(.9,.9,.9);
+}
+
+.lines-button.arrow.close .lines {
+  // background: transparent;
+  &:before,
+  &:after {
+    // transform-origin: 50% 50%;
+    top: 0;
+    width: $button-size/1.8;
+    ; background-color: $green; 
+  }
+
+  &:before { transform: rotate3d(0,0,1,40deg); }
+  &:after { transform: rotate3d(0,0,1,-40deg); }
+}

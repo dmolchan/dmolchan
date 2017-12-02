@@ -1,0 +1,11 @@
+.hero {
+  border-bottom: 1px solid $light-grey;
+  background: url("../images/dimka_png.png") bottom left no-repeat;
+
+  h1 {
+    margin-left: 420px;
+    max-width: 480px;
+    padding-bottom: $spacer * 3;
+    padding-top: $spacer * 3;
+  }
+}

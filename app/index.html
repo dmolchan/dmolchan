@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>flex-mex</title>
+    <link href="build/css/app.css" rel="stylesheet">
+    <link href="build/css/normalize.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+          <div class='logo'>d_molchan<span class='blinking-cursor'>|</span></div>
+          <nav class='main-nav'>
+            <ul>
+              <li class="menu-item">
+                <a class="icon-toggle" href="https://www.linkedin.com/in/dmitry-molchan-710a86a9">
+                 <img src='images/linkedin_not_active.png'>
+                 <img src='images/linkedin_active.png'>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="icon-toggle" href="#exp">
+                  <img src='images/skills_not_active.png'>
+                  <img src='images/skills_active.png'>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="icon-toggle" href="mailto:dzmolchan@gmail.com">
+                 <img src='images/mail_not_active.png'>
+                 <img src='images/mail_active.png'>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="lines-button arrow arrow-left" type="button" role="button" aria-label="Toggle navigation">
+              <span class="lines"></span>
+          </button>
+      </header>
+
+      <div class="main-content">
+        <div class="hero">
+          <h1>Born and raised in the middle of Europe in a small country called Belarus.
+             I currently live in Bay Area and work as a Test Engineer at Nestlabs in Palo Alto, California.
+             Below are a few things about me and what I enjoy to do.
+          </h1>
+        </div>
+        <div id="info">
+          <section class="facts">
+            <h1>I</h1>
+            <ul class='facts-list'>
+                <li>I can spend hours playing soccer</li>
+                <li>I love bartending</li>
+                <li>Law school drop-out</li>
+                <li>Swim swim</li>
+                <li>Night person? Yes!</li>
+                <li>Minimalism in everything</li>
+                <li>I used to make customized T-shirts</li>
+            </ul>
+          </section>
+          <section class="what-i-do">
+            <h1>II</h1>
+            <ul class="what-do">
+              <li>I work as a test engineer</li>
+              <li>I make youtube videos</li>
+            </ul>
+          </section>
+          <section class="why-i-do">
+            <h1>III</h1>
+            <ul class="why-do">
+              <li>Selenium WebDriver</li>
+              <li>Ruby/Capybara/Cucumber/RSpec</li>
+              <li>Postman/Charles Proxy</li>
+              <li>TeamCity</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="info-2">
+        <div class="automation">
+          <div class="description">
+            <h1>I'm a big fan of Agile methodologies and even a bigger fan of Web automation.
+                Automating time-consuming tasks allows to free time to focus on something more exciting
+                raher than just clicking on the same elements over and over again.
+            </h1>
+          </div>
+          <div class="animation">
+            <img src="images/auto_gif.gif">
+          </div>
+        </div>
+      </div>
+      <div id="exp">
+        <div class="exp-header">
+          <h1 class='colorize'> EXPERIENCE:</h1>
+          <h3> Test Engineer </h3>
+          <p> Nest @Alphabet via Adecco</p>
+          <p> February 2015 - <span class='colorize'>Present<span></p>
+          <p> 3400 Hillview ave, Palo Alto</p>
+        </div>
+        <div class="exp-body">
+          <ul class="descr-items">
+            <li> Performed various types of testing, including Functional, Regression, Negative, UI, Compatibility.</li>
+            <li> Package deployments to testing realms, preparing packages for release deployments</li>
+            <li> Test Plans creation based on MRD, PRD and corresponding documentation</li>
+            <li> Project test cases creation using TestRail, web-based test case software</li>
+            <li> TestRail Test Plans creation, test cases execution, and reporting</li>
+            <li> Web and mobile web automation using Selenium-Ruby-Capybara-RSpec framework</li>
+            <li> REST API Testing</li>
+            <li> Verification and debugging Google Analytics and GTM issues</li>
+            <li> Participating in daily SCRUM meetings, project backlog grooming and spring planning sessions</li>
+          </ul>
+        </div>
+      </div>
+    <footer>
+      <p>&copy; dmolchan</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="build/js/main.js"></script>
+  </body>
+</html>
