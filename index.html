@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>D Molchan</title>
+    <title>dmolchan</title>
     <link href="css/app.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
@@ -12,35 +12,35 @@
   <body>
     <div class = "body-wrapper">
       <header class="header">
-        
-          <div class='logo'>MD<span class='blinking-cursor'>|</span></div>
-          <nav class='main-nav'>
-            <ul>
-              <li class="menu-item">
-                <a class="icon-toggle" href="mailto:dzmolchan@gmail.com">
-                 <img src='images/mail_not_active.png'>
-                 <img src='images/mail_active.png'>
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <button class="lines-button arrow arrow-left" type="button" role="button" aria-label="Toggle navigation">
-              <span class="lines"></span>
-          </button>
+        <div class="header-nav-container">
+        <div class="header-nav">
+          <div class='logo'>
+            <button class="nav-item" onclick="openLink(event, 'bio')">
+              <img src="images/dmolchan-logo.svg" alt="logo">
+            </button>
+          </div>
+          <div class="menu-item-photos">
+            <button class="nav-item" onclick="openLink(event, 'photos')">photos</button>
+          </div>
+          <div class="menu-item-videos">
+            <button class="nav-item" onclick="openLink(event, 'video')">videos</button>
+          </div>
+        </div>
+      </div>
           
     </header>
       
     <div class="wrapper w3-animate-opacity">
-      <div class="left-section ">
+      <div class="main-section ">
         <div id="welcome" class="content w3-animate-opacity">
           HELLO.
         </div>
         <div id="bio" class="content the-bio w3-animate-opacity">
-            Minsk BY -> Denver CO -> Boston MA -> Miami FL -> San Jose CA
+            I travel. I take photos. I make videos.
           </div>
         <div id="photos" class="content the-photos w3-animate-opacity">
           <ul class="inst-photos">
-            <li>
+            <li>            
               <img src="images/photos/bridge.jpg" alt="Golden Gate Bridge" loading="lazy">
             </li>
             <li>
@@ -71,21 +71,13 @@
             COMING SOON.
         </div>
       </div>
-      <div class="right-section"></div>
-      <div class="the-controls">
-        <button class="nav-item" onclick="openLink(event, 'bio')">bio</button>
-        <button class="nav-item" onclick="openLink(event, 'photos')">photos</button>
-        <button class="nav-item" onclick="openLink(event, 'video')">video</button>
-        
-      </div>
     </div>
-    <footer>
-      <div class='theme-switcher'>
-          <button id="switch" class="w3-animate-opacity" onclick="toggleTheme()"></button>
-      </div>
-    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/main.js"></script>
+  </div>
+  <div class="footer-wrapper">
+    <footer>
+    </footer>
   </div>
   </body>
 </html> 

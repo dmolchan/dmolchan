@@ -30,14 +30,14 @@ function toggleTheme() {
   if(localStorage.getItem('theme') === 'theme-dark') {
     setTheme('theme-light');
   } else {
-    setTheme('theme-dark');
+    setTheme('theme-l');
   }
 }
 
  // Immediately invoked function to set the theme on initial load
 (function () {
-  if (localStorage.getItem('theme') === 'theme-dark') {
-      setTheme('theme-dark');
+  if (localStorage.getItem('theme') === 'theme-light') {
+      setTheme('theme-light');
   } else {
       setTheme('theme-light');
   }
