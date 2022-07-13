@@ -256,7 +256,7 @@ body {
   padding-left: 65px;
 }
 
-#photos, #video, #bio {
+#video, #bio {
   display: none;
 }
 
@@ -308,10 +308,14 @@ ul {
     width: 100%;
   }
   img {
-    width: 0%;
     max-height: 40vh;
     min-width: 0;
   }
+  .logo img {
+    width: 10%;
+    max-height: 40vh;
+    min-width: 0;
+ }
 }
 .theme-light {
   --color-primary: #0060df;
