@@ -12,8 +12,6 @@
   height: 80px;
   display: flex;
   max-width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .header-nav {
@@ -67,7 +65,7 @@
   letter-spacing: 0.06em;
   flex:auto;
   flex-grow: 3;
-  padding-left: 15px;
+  padding-left: 50px;
  }
 
  .logo img {
