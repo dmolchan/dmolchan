@@ -283,14 +283,14 @@ ul {
 }
 
 
-@media (max-height: 480px) {
+@media (max-height: 600px) {
   li {
     height: 10vh;
   }
 }
 
 
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+@media (max-aspect-ratio: 1/1) and (max-width: 600px) {
   .inst-photos li img {
     max-height: 100%;
     max-width: 100%;
