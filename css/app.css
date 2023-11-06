@@ -301,10 +301,11 @@ ul {
     flex-direction: row;
   }
 
-  li {
+  .inst-photos li {
     height: auto;
-    width: 100%;
+    flex-grow: 1;
   }
+  
   img {
     max-height: 40vh;
     min-width: 0;
