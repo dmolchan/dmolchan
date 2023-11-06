@@ -306,12 +306,8 @@ ul {
     flex-grow: 1;
   }
   
-  img {
-    max-height: 40vh;
-    min-width: 0;
-  }
   .logo img {
-    width: 10%;
+    width: 30%;
     max-height: 40vh;
     min-width: 0;
  }
